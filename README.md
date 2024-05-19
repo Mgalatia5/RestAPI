@@ -7,7 +7,7 @@
 - Gain experience in buildig and manage huge dataset that is useful to the people
 - Made for native apps and web
 
-![Database Diagram](./db.png)
+![Database Diagram](./view.png)
 
 ## Contributing
 
