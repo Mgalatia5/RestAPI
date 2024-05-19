@@ -13,8 +13,8 @@ Auth::routes();
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
-Route::post('/product', [ProductController::class, 'store']);
-Route::get('/product', [ProductController::class, 'index']);
-Route::put('/product/{id}', [ProductController::class, 'update']);
-Route::delete('/product/{id}', [ProductController::class, 'destroy']);
-Route::get('/product/{id}', [ProductController::class, 'show']);
+Route::post('/v1/product', [ProductController::class, 'store']);
+Route::get('/v1/product', [ProductController::class, 'index']);
+Route::put('/v1/product/{id}', [ProductController::class, 'update']);
+Route::delete('/v1/product/{id}', [ProductController::class, 'destroy']);
+Route::get('/v1/product/{id}', [ProductController::class, 'show']);

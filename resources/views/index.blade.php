@@ -29,7 +29,7 @@
             <div class="alert alert-primary" role="alert">
                 <span class=" pr-2" style="border-right: 2px solid red;">POST</span> <a class=" pl-2 text-truncate"
                     style="font-size: 20px; text-decoration:none; "
-                    href="{{ url('product') }}">https://api.appneti.com/product</a>
+                    href="{{ url('product') }}">https://api.appneti.com/v1/product</a>
                 <button type="button" class="close" style="border: none" aria-label="Close">
                     <span aria-hidden="true" style="font-size: 14px" class="copy"
                         onclick="return copyLink(this)">Copy</span>
@@ -38,7 +38,7 @@
             <div class="alert alert-success" role="alert">
                 <span class=" pr-2" style="border-right: 2px solid red;">GET</span> <a class=" pl-2 text-truncate"
                     style="font-size: 20px; text-decoration:none; "
-                    href="{{ url('product') }}">https://api.appneti.com/product</a>
+                    href="{{ url('product') }}">https://api.appneti.com/v1/product</a>
                 <button type="button" class="close" style="border: none" aria-label="Close">
                     <span aria-hidden="true" style="font-size: 14px" class="copy"
                         onclick="return copyLink(this)">Copy</span>
@@ -47,7 +47,7 @@
             <div class="alert alert-warning" role="alert">
                 <span class=" pr-2" style="border-right: 2px solid red;">GET</span> <a class=" pl-2 text-truncate"
                     style="font-size: 20px; text-decoration:none; "
-                    href="{{ url('product', 1) }}">https://api.appneti.com/product/{id}</a>
+                    href="{{ url('product', 1) }}">https://api.appneti.com/v1/product/{id}</a>
                 <button type="button" class="close" style="border: none" aria-label="Close">
                     <span aria-hidden="true" style="font-size: 14px" class="copy"
                         onclick="return copyLink(this)">Copy</span>
@@ -56,7 +56,7 @@
             <div class="alert alert-info" role="alert">
                 <span class=" pr-2" style="border-right: 2px solid red;">PUT</span> <a class=" pl-2 text-truncate"
                     style="font-size: 20px; text-decoration:none; "
-                    href="{{ url('product') }}">https://api.appneti.com/product/{id}</a>
+                    href="{{ url('product') }}">https://api.appneti.com/v1/product/{id}</a>
                 <button type="button" class="close" style="border: none" aria-label="Close">
                     <span aria-hidden="true" style="font-size: 14px" class="copy"
                         onclick="return copyLink(this)">Copy</span>
@@ -65,7 +65,7 @@
             <div class="alert alert-danger" role="alert">
                 <span class=" pr-2" style="border-right: 2px solid red;">DELETE</span> <a class=" pl-2 text-truncate"
                     style="font-size: 20px; text-decoration:none; "
-                    href="{{ url('product', 1) }}">https://api.appneti.com/product/{id}</a>
+                    href="{{ url('product', 1) }}">https://api.appneti.com/v1/product/{id}</a>
                 <button type="button" class="close" style="border: none" aria-label="Close">
                     <span aria-hidden="true" style="font-size: 14px" class="copy"
                         onclick="return copyLink(this)">Copy</span>
@@ -83,7 +83,7 @@
             <img class=" w-100 h-100 rounded" src="assets/prod.png" alt="">
         </div>
         <div class="col-md-6">
-            <img class=" w-100 h-100 rounded" src="assets/product.png" alt="">
+            <img class=" w-100 h-100 rounded" src="assets/v1/product.png" alt="">
         </div>
     </div> --}}
 </body>
