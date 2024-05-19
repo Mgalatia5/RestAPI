@@ -7,21 +7,24 @@
 - Gain experience in buildig and manage huge dataset that is useful to the people
 - Made for native apps and web
 
+![Database Diagram](./public/images/db.png)
 
 ## Contributing
 
 To be the contributor in this project  [Click Me to Send the Email ](mailto:ictechnology26@gmail.com).
 
 ## GET STARTED
-Clone this project 
-cp .env.example .env
-composer update
-npm install
-php artisan migrate
-php artisan serve
+- Clone this project 
+- cp .env.example .env
+- composer update
+- npm install
+- php artisan migrate
+- php artisan serve
 
 
 
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
